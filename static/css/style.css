@@ -1,0 +1,276 @@
+/*****************************
+Common
+********/
+html,
+body {
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+
+.main .main-header .logo {
+    width: 50px;
+    margin-right: 20px;
+}
+
+
+
+.main .main-header {
+    border-bottom: 1px solid rgb(235, 238, 240);
+    display: flex;
+    justify-content: left;
+}
+
+.main .main-header h1 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.main {
+    text-align: left;
+  
+}
+
+
+
+/*********
+Post
+******************/
+
+form {
+    width: calc(100% - 80px);
+    flex-grow: 1;
+}
+
+.post_form {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #CCC;
+}
+
+.post_form .user img {
+    width: 80px;
+}
+.mb-0 {
+    text-align: left;
+}
+
+.post_form .input-text {
+    border: 0px;
+    width: 95%;
+    background: #e6fef7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.post_form button {
+    background-color: grey
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 15%;
+    border: none;
+    border-radius: 7px;
+    padding:10px;
+}
+input.form-control.form-control-sm {
+    padding: 7px 20px 7px 8px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+
+.post_form .text-area {
+    border: 0px;
+    padding: 10px;
+    width: 95%;
+    height: 100px;
+    resize: none;
+}
+
+.post_form .user{
+    width: 80px;
+    padding: 0 15px 10px 0;
+}
+.post_form .user img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.post_form .bottom-area {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(235, 238, 240);
+    padding-top: 8px;
+    gap: 10px;
+}
+
+.posts ul {
+    padding:0;
+}
+
+.posts li {
+    display: flex;
+    border-bottom: 1px solid #CCC;
+    padding: 0 20px 12px 0;
+    list-style: none;
+    position: relative;
+    margin-top: 10px;
+}
+
+.posts li .user {
+    width: 80px;
+    padding: 5px 15px 10px 10px;
+}
+
+.posts li .user img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(235, 238, 240);
+}
+
+a {
+    font-size: 13px;
+    color: rgb(29, 161, 242);
+    text-decoration: none;
+}
+
+.posts li .name_body .name img {
+    width: 10%;
+}
+
+
+.posts li .name_body .name a {
+    font-size: 13px;
+    color: rgb(29, 161, 242);
+    text-decoration: none;
+}
+
+
+
+
+.logo {
+    width: 80px;
+    padding: 5px 15px 10px 10px;
+}
+
+.logo a {
+    font-size: 13px;
+    color: rgb(29, 161, 242);
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid rgb(235, 238, 240);
+}
+
+
+.name_body .name .title {
+    display: flex;
+    gap: 3%;
+
+}
+
+
+.posts li .name_body {
+ position: relative;
+ width:100%;
+}
+
+
+.posts li .name_body .name {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.posts li .name_body .name .handle {
+    color: rgb(21, 32, 43);
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.posts li .name_body .name a .dateTime{
+    padding-left: 10px;
+    color: rgb(71, 71, 71);
+    font-size: 14px;
+}
+
+.posts li .name_body p {
+    font-size: 16px;
+    padding: 8px 0 0 0;
+    margin-bottom: 8px;
+
+}
+
+.posts li .name_body .icon-list {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.posts li .name_body .icon-list img {
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.menu{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #CCC;
+    background-color: white;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+    
+
+.popup{
+    width: 20px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.popup  img{
+    width:2vw;
+    
+
+}
+
+input.btn {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 15%;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+        
+    }
+}
